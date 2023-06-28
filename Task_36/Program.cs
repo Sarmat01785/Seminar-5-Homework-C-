@@ -19,7 +19,7 @@ void FillArray(int[] array) // Метод заполнения массива.
 {
     Random rnd = new Random(); // создание экземпляра класса Random
     for (int i = 0; i < array.Length; i++)
-        array[i] = rnd.Next(-100, 100); //  Заполнение массива случайными положительными трёхзначными числами.
+        array[i] = rnd.Next(-100, 100); //  Заполнение массива случайными трёхзначными числами.
 }
 string PrintArray(int[] array) // Метод печати массива.
 {
